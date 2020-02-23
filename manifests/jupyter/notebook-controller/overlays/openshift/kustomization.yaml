@@ -1,0 +1,7 @@
+bases:
+- ../../base
+
+images:
+- name: gcr.io/kubeflow-images-public/notebook-controller
+  newTag: v0.7.0
+  newName: quay.io/kubeflow/notebook-controller
